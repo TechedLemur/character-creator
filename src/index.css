@@ -12,8 +12,17 @@ body {
 *,
 *:before,
 *:after {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+}
+
+.background-shade {
+  background-color: hsl(180, 20%, 73%);
+  height: 40%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  isolation: isolate;
 }
 
 /*
